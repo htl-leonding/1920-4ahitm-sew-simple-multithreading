@@ -1,0 +1,61 @@
+= Exercises: Simple Multi-threading
+Thomas W. Stütz
+1.0, 2020-03-10
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+ifndef::source-highlighter[:source-highlighter: rouge]
+ifndef::docinfo[:docinfo: shared]
+:icons: font
+:toc: left
+:toclevels: 5
+:sectnums:
+
+== Angabe
+
+Die Angabe der folgenden Aufgabe finden Sie https://htl-leonding-college.github.io/multithreading-lecture-notes/exercises.html[hier]
+
+== Intellij-Projekt
+
+Verwenden Sie das existierende Projekt im git-Ordner.
+
+Vergessen Sie dabei nicht auf das `.gitignore`-File.
+
+== Verzeichnisstruktur
+
+Erstellen Sie für jede Aufgabe ein eigenes Package mit jeweils einer eigenen main-Methode.
+Die Lectur-Notes finden Sie https://htl-leonding-college.github.io/multithreading-lecture-notes[hier].
+
+[plantuml,folder-structure,png]
+----
+@startsalt
+{
+{T
+ + src
+ ++ main
+ +++ java
+ ++++ ex01
+ +++++ HipHop.java
+ ++++ ex02
+ +++++ ...
+ ++++ ex03
+ +++++ ...
+ ++++ ex04
+ +++++ ...
+ ++++ ex05
+ +++++ ...
+}
+}
+@endsalt
+----
+
+== Abgabe
+
+Comitten Sie das Projekt mit lauffähigen Zwischenschritten.
+Geben Sie dabei in der Commit-Message an, bei welchen Beispiel Sie gerade arbeiten
+
+zB "ex01: fertiggestellt"
+
+
+
+
